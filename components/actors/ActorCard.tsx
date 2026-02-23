@@ -38,7 +38,10 @@ export function ActorCard({ actor }: Props) {
 
         {/* Contenido */}
         <div className="p-4">
-          <h2 className="text-lg font-semibold text-white truncate">
+          <h2 className="text-sm font-semibold text-white truncate">
+            {actor.name}
+          </h2>
+          <h2 className="text-xs font-semibold text-white truncate">
             {actor.biography}
           </h2>
 
