@@ -18,7 +18,7 @@ export default function Navbar() {
               <Link href="/actors">Actores</Link>
             </li>
             <li className="bg-red-600 hover:bg-red-700 cursor-pointer px-3 py-2 rounded-lg">
-              <Link href="http://localhost:8001/admin/login">Iniciar Sesión</Link>
+              <Link href={`${process.env.NEXT_PUBLIC_LOGIN_URL}`}>Iniciar Sesión</Link>
             </li>
             <ThemeButton/>
           </div>
