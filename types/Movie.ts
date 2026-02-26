@@ -1,3 +1,5 @@
+import { Genre } from "./Genre";
+
 export interface Movie {
   id: number;
   created_at: string;
@@ -8,4 +10,6 @@ export interface Movie {
   photo_url: string;
   background_url: string;
   trailer_url: string;
+  genres?: Genre[];
+  stars_average?: string;
 }

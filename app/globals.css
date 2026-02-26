@@ -6,6 +6,7 @@
     --bg-loading-primary: #0a0a0a;
     --bg-loading-secondary: #171717;
     --bg-loading-tertiary: #374151;
+    --bg-card-info: #18181B;
 }
 
 .dark{
@@ -15,6 +16,7 @@
     --bg-loading-primary: #0a0a0a;
     --bg-loading-secondary: #171717;
     --bg-loading-tertiary: #374151;
+    --bg-card-info: #18181B;
 }
 
 @theme{
@@ -23,5 +25,5 @@
     --color-text-primary: var(--text-primary);
     --color-loading-primary: var(--bg-loading-primary);
     --color-loading-secondary: var(--bg-loading-secondary);
-    --color-loading-tertiary: var(--bg-loading-tertiary);
+    --color-card-info: var(--bg-card-info);
 }
